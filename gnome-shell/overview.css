@@ -106,7 +106,7 @@
 /* Search */
 
 #searchEntry {
-    font-size: 1.5em;
+    font-size: 1em;
     width: 300px;
 }
 
@@ -172,13 +172,15 @@
 /* Result display */
 
 .icon-grid {
-    spacing: 2em;
-    -shell-grid-horizontal-item-size: 128px;
-    -shell-grid-vertical-item-size: 128px;
+    spacing: 1em;
+    /* -shell-grid-horizontal-item-size: 128px; */
+    /* -shell-grid-vertical-item-size: 128px; */
+    -shell-grid-horizontal-item-size: 84px;
+    -shell-grid-vertical-item-size: 84px;
 }
 
 .icon-grid .overview-icon {
-    icon-size: 96px;
+    icon-size: 48px;
     height: 128px;
     width: 128px;
 }
@@ -317,14 +319,14 @@
 
 /* ??? */
 .list-search-result-content {
-    spacing: 12px;
-    padding: 12px;
+    /* spacing: 12px; */
+    /* padding: 12px; */
 }
 
 /* ??? */
 .list-search-result-title {
     font-weight: bold;
-    font-size: 14pt;
+    font-size: 1em;
     color: white;
 }
 
